@@ -2,7 +2,7 @@
 ============================
 
 [![Build Status](https://travis-ci.org/ahmetmdd/python-mysqlconnector-class.svg?branch=master)](https://travis-ci.org/ahmetmdd/python-mysqlconnector-class)
-
+[![Coverage Status](https://coveralls.io/repos/github/ahmetmdd/python-mysqlconnector-class/badge.svg?branch=master)](https://coveralls.io/github/ahmetmdd/python-mysqlconnector-class?branch=master)
 
 Veritabanı işlemlerinizi Python üzerinde kolayca yapabilmeniz için bir sınıf geliştirildi. Bu sınıfı kullanarak bu işlemleri kolay ve rahat bir şekilde yapabilirsiniz. Bu sınıfın kurulumu ve kullanım şekilleri aşağıda yer almaktadır.
 
