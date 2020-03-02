@@ -10,7 +10,7 @@ addons:
 services:
   - mysql
 before_script:
-  - sudo mysql -e 'create database tabloadi;'
+  - sudo mysql -u root -p tabloadi < tests/database.sql
 # command to run tests
 script: 
   - python example.py
