@@ -1,4 +1,8 @@
 # python-mysqlconnector-class
+============================
+
+[![Build Status](https://travis-ci.org/ahmetmdd/python-mysqlconnector-class.svg?branch=master)](https://travis-ci.org/ahmetmdd/python-mysqlconnector-class)
+
 
 Veritabanı işlemlerinizi Python üzerinde kolayca yapabilmeniz için bir sınıf geliştirildi. Bu sınıfı kullanarak bu işlemleri kolay ve rahat bir şekilde yapabilirsiniz. Bu sınıfın kurulumu ve kullanım şekilleri aşağıda yer almaktadır.
 
