@@ -10,7 +10,7 @@ addons:
 services:
   - mysql
 before_script:
-  - mysql -u travis --password="" < tests/database.sql
+  - sudo mysql -e 'create database tabloadi;'
 # command to run tests
 script: 
   - python example.py
