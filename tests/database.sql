@@ -1,10 +1,3 @@
-# Create Testuser
-CREATE USER 'coldrimp'@'localhost' IDENTIFIED BY 'coldrimp';
-GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP ON *.* TO 'dev'@'localhost';
-# Create DB
-CREATE DATABASE IF NOT EXISTS `tabloadi` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `tabloadi`;
-# Create Table
 
 CREATE TABLE `tabloadi` (
   `Id` bigint(22) NOT NULL,

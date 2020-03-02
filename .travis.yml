@@ -10,7 +10,7 @@ addons:
 services:
   - mysql
 before_script:
-  - mysql -u root --password="" < tests/database.sql
+  - mysql -u travis --password="" < tests/database.sql
 # command to run tests
 script: 
   - python example.py
