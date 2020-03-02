@@ -7,8 +7,10 @@ install:
   - pip install -r requirements.txt
 addons:
   mariadb: '10.4'
+services:
+  - mysql
 before_script:
-  - sudo mysql -e 'create database tabloadi;'
+  - mysql -u root --password="" < tests/database.sql
 # command to run tests
 script: 
   - python example.py
