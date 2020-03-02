@@ -5,6 +5,10 @@ python:
 # command to install dependencies
 install:
   - pip install -r requirements.txt
+addons:
+  mariadb: '10.4'
+before_script:
+  - sudo mysql -e 'create database tabloadi;'
 # command to run tests
 script: 
   - python example.py
