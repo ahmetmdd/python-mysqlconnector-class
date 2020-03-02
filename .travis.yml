@@ -10,7 +10,6 @@ addons:
 services:
   - mysql
 before_script:
-  - sudo mysql CREATE DATABASE tabloadi;
   - sudo mysql --user=root --password="" tabloadi < tests/database.sql
   - sudo mysql -u root -p tabloadi < tests/database.sql
 # command to run tests
