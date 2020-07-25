@@ -1,6 +1,6 @@
 from coldrimpSql import coldrimpSql
 
-#connect = coldrimpSql()
+connect = coldrimpSql()
 
 
 testInsertParams = {
@@ -32,11 +32,10 @@ testDeleteParams = {
         ]
 }
 
-#testSelect = connect.Select('tabloadi', testSelectParams)
+testSelect = connect.Select('tabloadi', testSelectParams)
 #testInsert = connect.Insert('tabloadi', testInsertParams)
 #testUpdate = connect.Update('tabloadi', testUpdateParams, 'Id=94')
 #testDelete = connect.Delete('tabloadi', testDeleteParams)
 #testDelete2 = connect.Delete('tabloadi', 'Id=115')
 
 
-print("testDelete2")
