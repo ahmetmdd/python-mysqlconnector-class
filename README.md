@@ -1,6 +1,6 @@
 # python-mysqlconnector-class
 ============================
-
+![GitHub All Releases](https://img.shields.io/github/downloads/ahmetmdd/python-mysqlconnector-class/total)
 [![Build Status](https://travis-ci.org/ahmetmdd/python-mysqlconnector-class.svg?branch=master)](https://travis-ci.org/ahmetmdd/python-mysqlconnector-class)
 [![Coverage Status](https://coveralls.io/repos/github/ahmetmdd/python-mysqlconnector-class/badge.svg?branch=master)](https://coveralls.io/github/ahmetmdd/python-mysqlconnector-class?branch=master)
 
